@@ -36,5 +36,5 @@
 {
     return [NSArray arrayWithObjects: firstString, secondString, thirdString, nil];
 }
--(type I return)nameOfMethod: (type of first parameter) firstParameter;continuationOfMethodName: (type of second parameter) secondParameter;
+
 @end
