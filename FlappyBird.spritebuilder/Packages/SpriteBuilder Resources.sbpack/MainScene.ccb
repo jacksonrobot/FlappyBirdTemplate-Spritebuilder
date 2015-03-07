@@ -1133,8 +1133,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1256,7 +1254,7 @@
 				<key>displayName</key>
 				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
-				<string>_coulds2</string>
+				<string>_could2</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -1364,7 +1362,7 @@
 				<key>displayName</key>
 				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
-				<string>_coulds1</string>
+				<string>_could1</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -1459,6 +1457,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
