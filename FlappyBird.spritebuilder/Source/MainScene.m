@@ -18,6 +18,10 @@
     CCNode *_bush2;
     NSArray *_bushes;
     
+    CCNode *_cloud1;
+    CCNode *_cloud2;
+    NSArray *_clouds;
+    
     NSTimeInterval _sinceTouch;
     
     NSMutableArray *_obstacles;
@@ -36,6 +40,8 @@
     self.userInteractionEnabled = TRUE;
     
     _grounds = @[_ground1, _ground2];
+    _bushes = @[_bush1, _bush2];
+    _clouds = @[_cloud1, _cloud2];
 
     
     for (CCNode *ground in _grounds) {
