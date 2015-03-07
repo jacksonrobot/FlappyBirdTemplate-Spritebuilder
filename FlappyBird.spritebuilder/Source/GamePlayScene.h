@@ -21,16 +21,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     Character* character;
     CCPhysicsNode* physicsNode;
     float timeSinceObstacle;
-    CCNode *_ground1;
-    CCNode *_ground2;
-    NSArray *_grounds;
-    CCNode *_cloud1;
-    CCNode *_cloud2;
-    NSArray *_clouds;
-    
-    CCNode *_bush1;
-    CCNode *_bush2;
-    NSArray *_bushes;
+
 }
 
 -(void) initialize;
