@@ -21,6 +21,7 @@
     CCNode *_bush1;
     CCNode *_bush2;
     NSArray *_bushes;
+    
     NSTimeInterval _sinceTouch;
     
     NSMutableArray *_obstacles;

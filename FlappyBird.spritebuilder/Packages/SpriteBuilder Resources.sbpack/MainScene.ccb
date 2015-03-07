@@ -588,8 +588,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -1038,7 +1036,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>bush2</string>
+				<string>bush</string>
 				<key>memberVarAssignmentName</key>
 				<string>_bush2</string>
 				<key>memberVarAssignmentType</key>
@@ -1135,6 +1133,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1146,7 +1146,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>bush1</string>
+				<string>bush</string>
 				<key>memberVarAssignmentName</key>
 				<string>_bush1</string>
 				<key>memberVarAssignmentType</key>
@@ -1254,7 +1254,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>clouds2</string>
+				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
 				<string>_coulds2</string>
 				<key>memberVarAssignmentType</key>
@@ -1362,7 +1362,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>clouds1</string>
+				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
 				<string>_coulds1</string>
 				<key>memberVarAssignmentType</key>
