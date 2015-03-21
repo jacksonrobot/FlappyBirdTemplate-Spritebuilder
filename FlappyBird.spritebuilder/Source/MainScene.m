@@ -57,11 +57,11 @@
 
 - (void)didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
-    
+   // 定义了一个云，草丛和地面的数组
     _grounds = @[_ground1, _ground2];
     _bushes = @[_bush1, _bush2];
     _clouds = @[_cloud1, _cloud2];
-   
+   // 地面的一个循环
         for (CCNode *ground in _grounds) {
         // set collision txpe
         ground.physicsBody.collisionType = @"level";
@@ -73,7 +73,7 @@
     
     _obstacles = [NSMutableArray array];
     points = 0;
-    _scoreLabel.visible = true;
+    _scoreLabel.visible = false;
     
     [super initialize];
 }
