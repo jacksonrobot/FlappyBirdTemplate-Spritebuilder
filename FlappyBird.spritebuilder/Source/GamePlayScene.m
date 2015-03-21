@@ -6,11 +6,11 @@
 
 
 
-
+//初始化
 - (void)initialize
 {
     // your code here
-    character = (Character*)[CCBReader load:@"character"];
+   // character = (Character*)[CCBReader load:@"character"];
     [physicsNode addChild:character];
     [self addObstacle];
     timeSinceObstacle = 0.0f;

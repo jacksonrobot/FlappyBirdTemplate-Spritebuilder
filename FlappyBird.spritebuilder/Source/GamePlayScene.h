@@ -26,6 +26,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {   //枚举了一种NSInteger 这种�
 
 -(void) initialize;
 -(void) addObstacle;
-
+-(void) showScore;
 
 @end
