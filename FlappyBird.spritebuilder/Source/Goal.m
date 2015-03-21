@@ -12,7 +12,7 @@
 
 - (void)didLoadFromCCB {
   self.physicsBody.collisionType = @"goal";
-  self.physicsBody.sensor = NO;
+  self.physicsBody.sensor = YES;
 }
 
 @end
