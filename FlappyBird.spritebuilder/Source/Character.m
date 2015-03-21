@@ -13,9 +13,9 @@
 // 通过didloadfromccb这个方法获得character的进入点
 - (void)didLoadFromCCB
 {
-    self.position = ccp(50, 250);
-    self.zOrder = DrawingOrderHero;
-    self.physicsBody.collisionType = @"character";
+    self.position = ccp(115, 250); //出现的地方
+    self.zOrder = DrawingOrderHero;// ??
+    self.physicsBody.collisionType = @"character";// characte  调用physicsbody中的collisiontype 物理碰撞监听
 
 }
 
