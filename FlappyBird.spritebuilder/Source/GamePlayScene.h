@@ -9,7 +9,7 @@
 #import "CCNode.h"
 #import "Character.h"
 
-typedef NS_ENUM(NSInteger, DrawingOrder) {
+typedef NS_ENUM(NSInteger, DrawingOrder) {   //枚举了一种NSInteger 这种类型的一个变量教DrawingOrder
     DrawingOrderPipes,
     DrawingOrderGround,
     DrawingOrderHero

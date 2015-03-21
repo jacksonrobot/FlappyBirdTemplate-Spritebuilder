@@ -7,7 +7,7 @@
 //
 
 #import "Obstacle.h"
-
+//定义两个变量
 @implementation Obstacle {
   CCNode *_topPipe;
   CCNode *_bottomPipe;
@@ -18,7 +18,7 @@
 // visibility on a 3,5-inch iPhone ends a 88 points and we want some meat
 static const CGFloat minimumYPosition = 200.f;
 // visibility ends at 480 and we want some meat
-static const CGFloat maximumYPosition = 380.f;
+static const CGFloat maximumYPosition = 380.f;   //定义常量
 
 - (void)didLoadFromCCB {
   _topPipe.physicsBody.collisionType = @"level";

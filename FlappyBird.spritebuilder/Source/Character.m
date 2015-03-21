@@ -21,7 +21,7 @@
 
 - (void)flap
 {
-    [self.physicsBody applyImpulse:ccp(0, 400.f)];//给自身一个物理体一个刚体的速度叠加
+    [self.physicsBody applyImpulse:ccp(0, 50.f)];//给自身一个物理体一个刚体的速度叠加
 }
 
 @end
