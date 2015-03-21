@@ -81,7 +81,7 @@
 #pragma mark - Touch Handling
 
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
-    if (_gameOver) {
+    if (!_gameOver) {
         [character.physicsBody applyAngularImpulse:10000.f];
         _sinceTouch = 0.f;
         
@@ -107,7 +107,7 @@
         character.rotation = 90.f;
         character.physicsBody.allowsRotation = FALSE;
         [character stopAllActions];
-        
+        //CCAction 动作的示范。
         CCActionMoveBy *moveBy = [CCActionMoveBy actionWithDuration:0.2f position:ccp(-2, 2)];
         CCActionInterval *reverseMovement = [moveBy reverse];
         CCActionSequence *shakeSequence = [CCActionSequence actionWithArray:@[moveBy, reverseMovement]];
