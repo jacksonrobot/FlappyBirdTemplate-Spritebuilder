@@ -10,7 +10,7 @@
 #import "GamePlayScene.h"
 
 @implementation Character
-
+// 通过didloadfromccb这个方法获得character的进入点
 - (void)didLoadFromCCB
 {
     self.position = ccp(115, 250);
@@ -21,7 +21,7 @@
 
 - (void)flap
 {
-    [self.physicsBody applyImpulse:ccp(0, 400.f)];
+    [self.physicsBody applyForce:ccp(0, 400.f)];//给自身一个物理体一个刚体的速度叠加
 }
 
 @end
