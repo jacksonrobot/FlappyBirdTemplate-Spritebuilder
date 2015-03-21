@@ -13,7 +13,7 @@
 // 通过didloadfromccb这个方法获得character的进入点
 - (void)didLoadFromCCB
 {
-    self.position = ccp(115, 250);
+    self.position = ccp(50, 250);
     self.zOrder = DrawingOrderHero;
     self.physicsBody.collisionType = @"character";
 
