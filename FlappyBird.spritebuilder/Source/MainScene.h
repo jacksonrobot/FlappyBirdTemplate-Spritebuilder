@@ -10,7 +10,9 @@
 #import "GamePlayScene.h"
 
 @interface MainScene : GamePlayScene
-
+@property (nonatomic,readwrite) CGPoint ratio;
+@property (nonatomic,readwrite) CGPoint offset;
+@property (nonatomic,readwrite,unsafe_unretained) CCNode *child;
 -(void) gameOver;
 
 @end
